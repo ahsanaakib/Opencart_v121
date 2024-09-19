@@ -1,0 +1,23 @@
+15:38:02.086 [main] DEBUG org.apache.poi.ooxml.POIXMLFactory - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
+15:38:02.102 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+15:38:02.102 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+15:38:02.102 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+15:38:02.133 [main] DEBUG org.apache.poi.ooxml.POIXMLFactory - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
+15:38:02.149 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+15:38:02.149 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+15:38:02.149 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+15:38:02.164 [main] DEBUG org.apache.poi.ooxml.POIXMLFactory - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
+15:38:02.180 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+15:38:02.180 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+15:38:02.180 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+15:38:02.196 [main] DEBUG org.apache.poi.ooxml.POIXMLFactory - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
+15:38:02.211 [main] INFO  testCases.TC003_LoginDDT - ***** starting TC003 LoginDDT *****
+15:38:03.814 [main] INFO  testCases.TC003_LoginDDT - ***** finished TC003 LoginDDT *****
+15:38:03.815 [main] INFO  testCases.TC003_LoginDDT - ***** starting TC003 LoginDDT *****
+15:38:14.612 [main] INFO  testCases.TC003_LoginDDT - ***** finished TC003 LoginDDT *****
+15:38:14.628 [main] INFO  testCases.TC003_LoginDDT - ***** starting TC003 LoginDDT *****
+15:38:25.372 [main] INFO  testCases.TC003_LoginDDT - ***** finished TC003 LoginDDT *****
+15:38:25.372 [main] INFO  testCases.TC003_LoginDDT - ***** starting TC003 LoginDDT *****
+15:38:36.203 [main] INFO  testCases.TC003_LoginDDT - ***** finished TC003 LoginDDT *****
+15:38:36.203 [main] INFO  testCases.TC003_LoginDDT - ***** starting TC003 LoginDDT *****
+15:38:47.282 [main] INFO  testCases.TC003_LoginDDT - ***** finished TC003 LoginDDT *****
