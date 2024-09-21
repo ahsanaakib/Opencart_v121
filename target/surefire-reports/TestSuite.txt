@@ -1,14 +1,13 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 7, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 73.56 s <<< FAILURE! -- in TestSuite
-testCases.TC002_LoginTest.verify_login -- Time elapsed: 11.16 s <<< FAILURE!
-java.lang.AssertionError: expected [true] but found [false]
+Tests run: 8, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 76.90 s <<< FAILURE! -- in TestSuite
+testCases.TC004_SearchProductTest.verify_productSearch -- Time elapsed: 10.96 s <<< FAILURE!
+java.lang.AssertionError: samsung phone expected [true] but found [false]
 	at org.testng.Assert.fail(Assert.java:111)
 	at org.testng.Assert.failNotEquals(Assert.java:1578)
 	at org.testng.Assert.assertTrue(Assert.java:57)
-	at org.testng.Assert.assertTrue(Assert.java:67)
-	at testCases.TC002_LoginTest.verify_login(TC002_LoginTest.java:30)
+	at testCases.TC004_SearchProductTest.verify_productSearch(TC004_SearchProductTest.java:28)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)

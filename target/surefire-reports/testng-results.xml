@@ -1,26 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="7" passed="6" failed="1" skipped="0">
+<testng-results ignored="0" total="8" passed="7" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-09-19T17:04:36 BDT" name="Master Suite" finished-at="2024-09-19T17:05:47 BDT" duration-ms="71186">
+  <suite started-at="2024-09-21T19:18:36 BDT" name="Master Suite" finished-at="2024-09-21T19:19:50 BDT" duration-ms="74036">
     <groups>
       <group name="Master">
-        <method signature="TC001_AccountRegistrationTest.verify_account_registration()[pri:0, instance:testCases.TC001_AccountRegistrationTest@a3d9978]" name="verify_account_registration" class="testCases.TC001_AccountRegistrationTest"/>
-        <method signature="TC002_LoginTest.verify_login()[pri:0, instance:testCases.TC002_LoginTest@5ba88be8]" name="verify_login" class="testCases.TC002_LoginTest"/>
+        <method signature="TC001_AccountRegistrationTest.verify_account_registration()[pri:0, instance:testCases.TC001_AccountRegistrationTest@4b41dd5c]" name="verify_account_registration" class="testCases.TC001_AccountRegistrationTest"/>
+        <method signature="TC002_LoginTest.verify_login()[pri:0, instance:testCases.TC002_LoginTest@3899782c]" name="verify_login" class="testCases.TC002_LoginTest"/>
       </group> <!-- Master -->
       <group name="Sanity">
-        <method signature="TC002_LoginTest.verify_login()[pri:0, instance:testCases.TC002_LoginTest@5ba88be8]" name="verify_login" class="testCases.TC002_LoginTest"/>
+        <method signature="TC002_LoginTest.verify_login()[pri:0, instance:testCases.TC002_LoginTest@3899782c]" name="verify_login" class="testCases.TC002_LoginTest"/>
       </group> <!-- Sanity -->
       <group name="Regression">
-        <method signature="TC001_AccountRegistrationTest.verify_account_registration()[pri:0, instance:testCases.TC001_AccountRegistrationTest@a3d9978]" name="verify_account_registration" class="testCases.TC001_AccountRegistrationTest"/>
+        <method signature="TC001_AccountRegistrationTest.verify_account_registration()[pri:0, instance:testCases.TC001_AccountRegistrationTest@4b41dd5c]" name="verify_account_registration" class="testCases.TC001_AccountRegistrationTest"/>
       </group> <!-- Regression -->
+      <group name="master">
+        <method signature="TC004_SearchProductTest.verify_productSearch()[pri:0, instance:testCases.TC004_SearchProductTest@9ebe38b]" name="verify_productSearch" class="testCases.TC004_SearchProductTest"/>
+      </group> <!-- master -->
       <group name="Datadriven">
-        <method signature="TC003_LoginDDT.verify_LoginDTT(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC003_LoginDDT@56928307]" name="verify_LoginDTT" class="testCases.TC003_LoginDDT"/>
+        <method signature="TC003_LoginDDT.verify_LoginDTT(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC003_LoginDDT@1603cd68]" name="verify_LoginDTT" class="testCases.TC003_LoginDDT"/>
       </group> <!-- Datadriven -->
     </groups>
-    <test started-at="2024-09-19T17:04:36 BDT" name="Test" finished-at="2024-09-19T17:05:47 BDT" duration-ms="71186">
-      <class name="testCases.TC002_LoginTest">
-        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC002_LoginTest@5ba88be8]" started-at="2024-09-19T17:04:43 BDT" name="setup" finished-at="2024-09-19T17:04:45 BDT" duration-ms="2316" status="PASS">
+    <test started-at="2024-09-21T19:18:36 BDT" name="Test" finished-at="2024-09-21T19:19:50 BDT" duration-ms="74036">
+      <class name="testCases.TC004_SearchProductTest">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC004_SearchProductTest@9ebe38b]" started-at="2024-09-21T19:19:36 BDT" name="setup" finished-at="2024-09-21T19:19:39 BDT" duration-ms="2343" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -36,18 +39,17 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="verify_login()[pri:0, instance:testCases.TC002_LoginTest@5ba88be8]" started-at="2024-09-19T17:04:45 BDT" name="verify_login" finished-at="2024-09-19T17:04:56 BDT" duration-ms="11023" status="FAIL">
+        <test-method signature="verify_productSearch()[pri:0, instance:testCases.TC004_SearchProductTest@9ebe38b]" started-at="2024-09-21T19:19:39 BDT" name="verify_productSearch" finished-at="2024-09-21T19:19:49 BDT" duration-ms="10837" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
-              <![CDATA[expected [true] but found [false]]]>
+              <![CDATA[samsung phone expected [true] but found [false]]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+              <![CDATA[java.lang.AssertionError: samsung phone expected [true] but found [false]
 at org.testng.Assert.fail(Assert.java:111)
 at org.testng.Assert.failNotEquals(Assert.java:1578)
 at org.testng.Assert.assertTrue(Assert.java:57)
-at org.testng.Assert.assertTrue(Assert.java:67)
-at testCases.TC002_LoginTest.verify_login(TC002_LoginTest.java:30)
+at testCases.TC004_SearchProductTest.verify_productSearch(TC004_SearchProductTest.java:28)
 at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
@@ -83,14 +85,14 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
           </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verify_login -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC002_LoginTest@5ba88be8]" started-at="2024-09-19T17:04:56 BDT" name="tearDown" finished-at="2024-09-19T17:04:56 BDT" duration-ms="239" status="PASS">
+        </test-method> <!-- verify_productSearch -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC004_SearchProductTest@9ebe38b]" started-at="2024-09-21T19:19:49 BDT" name="tearDown" finished-at="2024-09-21T19:19:50 BDT" duration-ms="209" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- testCases.TC002_LoginTest -->
-      <class name="testCases.TC003_LoginDDT">
-        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC003_LoginDDT@56928307]" started-at="2024-09-19T17:04:56 BDT" name="setup" finished-at="2024-09-19T17:04:59 BDT" duration-ms="2234" status="PASS">
+      </class> <!-- testCases.TC004_SearchProductTest -->
+      <class name="testCases.TC002_LoginTest">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC002_LoginTest@3899782c]" started-at="2024-09-21T19:18:41 BDT" name="setup" finished-at="2024-09-21T19:18:44 BDT" duration-ms="2634" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -106,7 +108,33 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="verify_LoginDTT(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC003_LoginDDT@56928307]" started-at="2024-09-19T17:05:00 BDT" name="verify_LoginDTT" data-provider="LoginData" finished-at="2024-09-19T17:05:01 BDT" duration-ms="1464" status="PASS">
+        <test-method signature="verify_login()[pri:0, instance:testCases.TC002_LoginTest@3899782c]" started-at="2024-09-21T19:18:44 BDT" name="verify_login" finished-at="2024-09-21T19:18:45 BDT" duration-ms="1291" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_login -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC002_LoginTest@3899782c]" started-at="2024-09-21T19:18:45 BDT" name="tearDown" finished-at="2024-09-21T19:18:45 BDT" duration-ms="167" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.TC002_LoginTest -->
+      <class name="testCases.TC003_LoginDDT">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC003_LoginDDT@1603cd68]" started-at="2024-09-21T19:18:45 BDT" name="setup" finished-at="2024-09-21T19:18:48 BDT" duration-ms="2621" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verify_LoginDTT(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC003_LoginDDT@1603cd68]" started-at="2024-09-21T19:18:50 BDT" name="verify_LoginDTT" data-provider="LoginData" finished-at="2024-09-21T19:18:51 BDT" duration-ms="1432" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -127,7 +155,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verify_LoginDTT -->
-        <test-method signature="verify_LoginDTT(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC003_LoginDDT@56928307]" started-at="2024-09-19T17:05:01 BDT" name="verify_LoginDTT" data-provider="LoginData" finished-at="2024-09-19T17:05:13 BDT" duration-ms="12185" status="PASS">
+        <test-method signature="verify_LoginDTT(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC003_LoginDDT@1603cd68]" started-at="2024-09-21T19:18:51 BDT" name="verify_LoginDTT" data-provider="LoginData" finished-at="2024-09-21T19:19:02 BDT" duration-ms="10800" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -148,7 +176,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verify_LoginDTT -->
-        <test-method signature="verify_LoginDTT(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC003_LoginDDT@56928307]" started-at="2024-09-19T17:05:13 BDT" name="verify_LoginDTT" data-provider="LoginData" finished-at="2024-09-19T17:05:25 BDT" duration-ms="11663" status="PASS">
+        <test-method signature="verify_LoginDTT(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC003_LoginDDT@1603cd68]" started-at="2024-09-21T19:19:02 BDT" name="verify_LoginDTT" data-provider="LoginData" finished-at="2024-09-21T19:19:13 BDT" duration-ms="10839" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -169,7 +197,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verify_LoginDTT -->
-        <test-method signature="verify_LoginDTT(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC003_LoginDDT@56928307]" started-at="2024-09-19T17:05:25 BDT" name="verify_LoginDTT" data-provider="LoginData" finished-at="2024-09-19T17:05:36 BDT" duration-ms="10992" status="PASS">
+        <test-method signature="verify_LoginDTT(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC003_LoginDDT@1603cd68]" started-at="2024-09-21T19:19:13 BDT" name="verify_LoginDTT" data-provider="LoginData" finished-at="2024-09-21T19:19:24 BDT" duration-ms="11712" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -190,7 +218,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verify_LoginDTT -->
-        <test-method signature="verify_LoginDTT(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC003_LoginDDT@56928307]" started-at="2024-09-19T17:05:36 BDT" name="verify_LoginDTT" data-provider="LoginData" finished-at="2024-09-19T17:05:47 BDT" duration-ms="10979" status="PASS">
+        <test-method signature="verify_LoginDTT(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC003_LoginDDT@1603cd68]" started-at="2024-09-21T19:19:24 BDT" name="verify_LoginDTT" data-provider="LoginData" finished-at="2024-09-21T19:19:36 BDT" duration-ms="11550" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -211,13 +239,13 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verify_LoginDTT -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC003_LoginDDT@56928307]" started-at="2024-09-19T17:05:47 BDT" name="tearDown" finished-at="2024-09-19T17:05:47 BDT" duration-ms="217" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC003_LoginDDT@1603cd68]" started-at="2024-09-21T19:19:36 BDT" name="tearDown" finished-at="2024-09-21T19:19:36 BDT" duration-ms="199" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- testCases.TC003_LoginDDT -->
       <class name="testCases.TC001_AccountRegistrationTest">
-        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC001_AccountRegistrationTest@a3d9978]" started-at="2024-09-19T17:04:36 BDT" name="setup" finished-at="2024-09-19T17:04:41 BDT" duration-ms="4315" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC001_AccountRegistrationTest@4b41dd5c]" started-at="2024-09-21T19:18:36 BDT" name="setup" finished-at="2024-09-21T19:18:39 BDT" duration-ms="3414" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -233,11 +261,11 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="verify_account_registration()[pri:0, instance:testCases.TC001_AccountRegistrationTest@a3d9978]" started-at="2024-09-19T17:04:41 BDT" name="verify_account_registration" finished-at="2024-09-19T17:04:42 BDT" duration-ms="1758" status="PASS">
+        <test-method signature="verify_account_registration()[pri:0, instance:testCases.TC001_AccountRegistrationTest@4b41dd5c]" started-at="2024-09-21T19:18:39 BDT" name="verify_account_registration" finished-at="2024-09-21T19:18:41 BDT" duration-ms="1875" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verify_account_registration -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC001_AccountRegistrationTest@a3d9978]" started-at="2024-09-19T17:04:42 BDT" name="tearDown" finished-at="2024-09-19T17:04:43 BDT" duration-ms="203" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC001_AccountRegistrationTest@4b41dd5c]" started-at="2024-09-21T19:18:41 BDT" name="tearDown" finished-at="2024-09-21T19:18:41 BDT" duration-ms="192" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

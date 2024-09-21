@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>6/1/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>7/1/0</td>
 </tr><tr>
-<td>Started on:</td><td>Thu Sep 19 17:04:36 BDT 2024</td>
+<td>Started on:</td><td>Sat Sep 21 19:18:36 BDT 2024</td>
 </tr>
-<tr><td>Total time:</td><td>71 seconds (71186 ms)</td>
+<tr><td>Total time:</td><td>74 seconds (74036 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -76,17 +76,16 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='testCases.TC002_LoginTest.verify_login()'><b>verify_login</b><br>Test class: testCases.TC002_LoginTest</td>
-<td><div><pre>java.lang.AssertionError: expected [true] but found [false]
-	at testCases.TC002_LoginTest.verify_login(TC002_LoginTest.java:30)
+<td title='testCases.TC004_SearchProductTest.verify_productSearch()'><b>verify_productSearch</b><br>Test class: testCases.TC004_SearchProductTest</td>
+<td><div><pre>java.lang.AssertionError: samsung phone expected [true] but found [false]
+	at testCases.TC004_SearchProductTest.verify_productSearch(TC004_SearchProductTest.java:28)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-... Removed 33 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace541135648", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace541135648'><pre>java.lang.AssertionError: expected [true] but found [false]
+... Removed 32 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1465691120", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1465691120'><pre>java.lang.AssertionError: samsung phone expected [true] but found [false]
 	at org.testng.Assert.fail(Assert.java:111)
 	at org.testng.Assert.failNotEquals(Assert.java:1578)
 	at org.testng.Assert.assertTrue(Assert.java:57)
-	at org.testng.Assert.assertTrue(Assert.java:67)
-	at testCases.TC002_LoginTest.verify_login(TC002_LoginTest.java:30)
+	at testCases.TC004_SearchProductTest.verify_productSearch(TC004_SearchProductTest.java:28)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
@@ -118,8 +117,8 @@ function toggleAllBoxes() {
 	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
 </pre></div></td>
-<td>11</td>
-<td>testCases.TC002_LoginTest@5ba88be8</td></tr>
+<td>10</td>
+<td>testCases.TC004_SearchProductTest@9ebe38b</td></tr>
 </table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
@@ -130,35 +129,40 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='testCases.TC003_LoginDDT.verify_LoginDTT()'><b>verify_LoginDTT</b><br>Test class: testCases.TC003_LoginDDT<br>Parameters: final@gmail.com, abc, invalid</td>
-<td></td>
-<td>12</td>
-<td>testCases.TC003_LoginDDT@56928307</td></tr>
-<tr>
-<td title='testCases.TC003_LoginDDT.verify_LoginDTT()'><b>verify_LoginDTT</b><br>Test class: testCases.TC003_LoginDDT<br>Parameters: false@gmail.com, xyz, invalid</td>
-<td></td>
-<td>11</td>
-<td>testCases.TC003_LoginDDT@56928307</td></tr>
-<tr>
-<td title='testCases.TC003_LoginDDT.verify_LoginDTT()'><b>verify_LoginDTT</b><br>Test class: testCases.TC003_LoginDDT<br>Parameters: true@gmail.com, pqr, invalid</td>
-<td></td>
-<td>10</td>
-<td>testCases.TC003_LoginDDT@56928307</td></tr>
-<tr>
 <td title='testCases.TC003_LoginDDT.verify_LoginDTT()'><b>verify_LoginDTT</b><br>Test class: testCases.TC003_LoginDDT<br>Parameters: admin_123@gmail.com, test@123, valid</td>
 <td></td>
 <td>1</td>
-<td>testCases.TC003_LoginDDT@56928307</td></tr>
+<td>testCases.TC003_LoginDDT@1603cd68</td></tr>
+<tr>
+<td title='testCases.TC003_LoginDDT.verify_LoginDTT()'><b>verify_LoginDTT</b><br>Test class: testCases.TC003_LoginDDT<br>Parameters: true@gmail.com, pqr, invalid</td>
+<td></td>
+<td>11</td>
+<td>testCases.TC003_LoginDDT@1603cd68</td></tr>
 <tr>
 <td title='testCases.TC003_LoginDDT.verify_LoginDTT()'><b>verify_LoginDTT</b><br>Test class: testCases.TC003_LoginDDT<br>Parameters: testauto123@gmail.com, test@123, invalid</td>
 <td></td>
-<td>10</td>
-<td>testCases.TC003_LoginDDT@56928307</td></tr>
+<td>11</td>
+<td>testCases.TC003_LoginDDT@1603cd68</td></tr>
+<tr>
+<td title='testCases.TC002_LoginTest.verify_login()'><b>verify_login</b><br>Test class: testCases.TC002_LoginTest</td>
+<td></td>
+<td>1</td>
+<td>testCases.TC002_LoginTest@3899782c</td></tr>
 <tr>
 <td title='testCases.TC001_AccountRegistrationTest.verify_account_registration()'><b>verify_account_registration</b><br>Test class: testCases.TC001_AccountRegistrationTest</td>
 <td></td>
 <td>1</td>
-<td>testCases.TC001_AccountRegistrationTest@a3d9978</td></tr>
+<td>testCases.TC001_AccountRegistrationTest@4b41dd5c</td></tr>
+<tr>
+<td title='testCases.TC003_LoginDDT.verify_LoginDTT()'><b>verify_LoginDTT</b><br>Test class: testCases.TC003_LoginDDT<br>Parameters: false@gmail.com, xyz, invalid</td>
+<td></td>
+<td>10</td>
+<td>testCases.TC003_LoginDDT@1603cd68</td></tr>
+<tr>
+<td title='testCases.TC003_LoginDDT.verify_LoginDTT()'><b>verify_LoginDTT</b><br>Test class: testCases.TC003_LoginDDT<br>Parameters: final@gmail.com, abc, invalid</td>
+<td></td>
+<td>10</td>
+<td>testCases.TC003_LoginDDT@1603cd68</td></tr>
 </table><p>
 </body>
 </html>
