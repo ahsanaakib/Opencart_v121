@@ -13,3 +13,5 @@ This project involves the automation of key functionalities for the Opencart pla
 # Planned Features
 * Checkout Process Test: Automate the entire checkout workflow, including adding items to the cart, providing shipping details, and completing payment.
 * Account Management Tests: Automate scenarios like updating profile information, changing passwords, and viewing order history.
+
+# Note: Please be aware that one test case has been intentionally designed to fail. This is to demonstrate the functionality of capturing screenshots for failed tests. The failure is not indicative of any issues with the application but rather serves as a visual example of the reporting capabilities of the testing framework.
