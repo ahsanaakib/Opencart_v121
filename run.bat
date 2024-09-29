@@ -1,2 +1,3 @@
-cd C:\eclipse-workspace\Opencart_v121
+@echo off
+cd /d %~dp0
 mvn test

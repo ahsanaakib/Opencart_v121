@@ -1,0 +1,50 @@
+21:37:00.137 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+21:37:00.144 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+21:37:00.145 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+21:37:00.145 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+21:37:00.146 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+21:37:00.146 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+21:37:00.149 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+21:37:00.149 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+21:37:00.149 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+21:37:00.149 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+21:37:00.161 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\HP\AppData\Local\Temp\testng-eclipse-417745410\testng-customsuite.xml
+
+21:37:00.186 [main] INFO  org.testng.internal.Utils - [Utils] DynamicGraphHelper.createDynamicGraph() took 4 ms.
+21:37:00.512 [main] INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.jq.Main@4089713: 191 ms
+21:37:00.538 [main] INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.FailedReporter@21526f6c: 25 ms
+21:37:00.560 [main] INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.XMLReporter@64da2a7: 21 ms
+21:37:00.572 [main] INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.EmailableReporter2@59fc684e: 12 ms
+21:37:00.582 [main] INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.JUnitReportReporter@355e34c7: 9 ms
+21:37:00.583 [main] INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.internal.ExitCodeListener@54709809: 0 ms
+21:18:27.248 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\eclipse-workspace\Opencart_v121\crossbrowsertesting.xml"
+21:18:27.745 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\eclipse-workspace\Opencart_v121\crossbrowsertesting.xml
+
+21:18:37.018 [TestNG-tests-3] INFO  testCases.TC001_AccountRegistrationTest - ***** Starting TC001_AccountRegistrationTest *****
+21:18:37.032 [TestNG-tests-1] INFO  testCases.TC001_AccountRegistrationTest - ***** Starting TC001_AccountRegistrationTest *****
+21:18:37.465 [TestNG-tests-1] INFO  testCases.TC001_AccountRegistrationTest - Clicked MyAccount Link
+21:18:37.698 [TestNG-tests-3] INFO  testCases.TC001_AccountRegistrationTest - Clicked MyAccount Link
+21:18:55.773 [TestNG-tests-3] INFO  testCases.TC002_LoginTest - ***** Startin Login Test ******
+21:18:55.804 [TestNG-tests-1] INFO  testCases.TC002_LoginTest - ***** Startin Login Test ******
+21:20:24.719 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\eclipse-workspace\Opencart_v121\crossbrowsertesting.xml"
+21:20:25.586 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\eclipse-workspace\Opencart_v121\crossbrowsertesting.xml
+
+21:20:45.240 [TestNG-tests-2] INFO  testCases.TC001_AccountRegistrationTest - ***** Starting TC001_AccountRegistrationTest *****
+21:20:45.380 [TestNG-tests-2] INFO  testCases.TC001_AccountRegistrationTest - Clicked MyAccount Link
+21:20:49.299 [TestNG-tests-2] INFO  testCases.TC001_AccountRegistrationTest - Clicked Register Link
+21:20:49.328 [TestNG-tests-2] INFO  testCases.TC001_AccountRegistrationTest - Providing customer details....
+21:20:51.133 [TestNG-tests-2] INFO  testCases.TC001_AccountRegistrationTest - Validating expected message
+21:20:51.172 [TestNG-tests-2] INFO  testCases.TC001_AccountRegistrationTest - ***** Finished TC001_AccountRegistrationTest *****
+21:21:02.304 [TestNG-tests-1] INFO  testCases.TC001_AccountRegistrationTest - ***** Starting TC001_AccountRegistrationTest *****
+21:21:02.305 [TestNG-tests-3] INFO  testCases.TC001_AccountRegistrationTest - ***** Starting TC001_AccountRegistrationTest *****
+21:21:03.207 [TestNG-tests-2] INFO  testCases.TC001_AccountRegistrationTest - ***** Starting TC001_AccountRegistrationTest *****
+21:21:03.485 [TestNG-tests-1] INFO  testCases.TC001_AccountRegistrationTest - Clicked MyAccount Link
+21:21:03.697 [TestNG-tests-3] INFO  testCases.TC001_AccountRegistrationTest - Clicked MyAccount Link
+21:21:03.933 [TestNG-tests-2] INFO  testCases.TC001_AccountRegistrationTest - Clicked MyAccount Link
+21:21:11.417 [TestNG-tests-1] INFO  testCases.TC001_AccountRegistrationTest - Clicked Register Link
+21:21:11.420 [TestNG-tests-1] INFO  testCases.TC001_AccountRegistrationTest - Providing customer details....
+21:21:16.016 [TestNG-tests-2] INFO  testCases.TC002_LoginTest - ***** Startin Login Test ******
+21:21:17.751 [TestNG-tests-2] INFO  testCases.TC002_LoginTest - ***** Finished Login test ******
