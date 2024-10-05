@@ -1,6 +1,8 @@
 ## Opencart_v121
 ## Project Overview: Hybrid-Driven Automation Testing for OpenCart
-This project involves the automation of key functionalities for the Opencart platform, focusing on user registration, login processes with data driven and product search. The automation framework is built using Selenium with Java, and it leverages TestNG for test management and reporting.
+This project involves the automation of key functionalities for the Opencart platform, focusing on user registration, login processes with data driven and product search. The automation framework is built using Selenium with Java, and it leverages TestNG for test management and Extent reports for reporting.
+
+**URL:** https://tutorialsninja.com/demo/
 
 ## Key Features
 * Automated UI Testing for registration, login data driven and search product.
